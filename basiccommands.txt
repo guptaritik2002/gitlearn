@@ -45,3 +45,5 @@ to rename a file or move a file
 
 1) git mv filename1 renamedfilename1 [it is good because if the files have already been staged , by using this command the renamed file will also be in staged area
 but the file which is renamed(filename1)or(old one ) will still be in directory untracked if in staging area ]
+
+nbbvmkjllbl
