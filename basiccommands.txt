@@ -1,1 +1,47 @@
-dddd
+
+
+to check the version 
+1)git --version 
+
+to initiate a new repository 
+1)git init <filename>
+this will crate a .git folder in the current directory 
+
+to check what are the files in our directory 
+1)ls 
+
+to give the alias to a command 
+
+1)git config --global alias.cmt commit [this is for global use you can do it for local by writing local inplace of global ]
+we can use git cmt instead of git commit in future.
+
+to get help 
+
+1) git help
+
+to check the status 
+
+1) git status 
+
+to see what are the files which are being tracked by git 
+
+1)git ls-files(this contains all the files which are being committed and are on staging area )
+
+
+
+to stage the file 
+1)git add . (to add all the files in the directory in the staging area )
+2)git add <filename1> <filename2> ....etc (used to add selected file to staging area)
+
+to commit the file 
+1) git commit -m "message"
+
+
+so to basically untrack the files 
+1)git rm -f <filename> this is used when you want to delete the file 
+2)git rm --cached<filename> this is used when you want to untrack the file but donot want to delete the file from the working directory 
+
+to rename a file or move a file 
+
+1) git mv filename1 renamedfilename1 [it is good because if the files have already been staged , by using this command the renamed file will also be in staged area
+but the file which is renamed(filename1)or(old one ) will still be in directory untracked if in staging area ]
